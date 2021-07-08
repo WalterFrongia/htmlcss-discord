@@ -11,7 +11,6 @@ body{
 /*CONTENITORE IMMAGINE*/
 header{
     height: 450px;
-    border: 2px solid black;
     background-image: url(../img/jumbo.png);
     background-size: cover;
 }
@@ -20,10 +19,11 @@ a{
     color:white;  
     text-decoration: none; 
 }
+
+/*TOP BAR*/
 .container-top-bar{
     margin:0 auto;
     width: 80%;
-    border: 2px solid red;
     padding-top:10px;
     text-align: center;
 }
@@ -50,16 +50,11 @@ nav,li{
     background-color: white;
 }
 
-.top-bar-button, span{
-    padding-right: 10px;
-    color:black;
-}
 
 .container-section-header{
     height: 100px;
     margin: auto;
     width: 60%;
-    border: 2px solid blue;
     text-align: center;
     padding:80px 40px;
 }
@@ -87,6 +82,10 @@ nav,li{
 .button-white{
     background-color: white;
     color:black;
+}
+
+.button-white, span{
+    padding-right: 10px;
 }
 
 .button-black{
@@ -125,4 +124,17 @@ nav,li{
 
 .text-description>p{
     padding-top: 35px;
+}
+
+.main-section-two{
+    position: relative;
+}
+
+.main-section-two img{
+    position:absolute;
+    right:0;
+}
+
+.main-section-two h2{
+    padding: 40px 0 10px 10px;
 }
